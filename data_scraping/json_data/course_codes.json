@@ -1,0 +1,299 @@
+[
+    {
+        "AAPS": "Academic Achievement Programs"
+    },
+    {
+        "AASP": "African American Studies"
+    },
+    {
+        "AAST": "Asian American Studies"
+    },
+    {
+        "AGST": "Agricultural Science and Technology"
+    },
+    {
+        "AMST": "American Studies"
+    },
+    {
+        "ANSC": "Animal Science"
+    },
+    {
+        "ANTH": "Anthropology"
+    },
+    {
+        "AOSC": "Atmospheric and Oceanic Science"
+    },
+    {
+        "ARAB": "Arabic"
+    },
+    {
+        "ARCH": "Architecture"
+    },
+    {
+        "AREC": "Agricultural and Resource Economics"
+    },
+    {
+        "ARHU": "Arts and Humanities"
+    },
+    {
+        "ARTH": "Art History & Archaeology"
+    },
+    {
+        "ARTT": "Art Studio"
+    },
+    {
+        "ASTR": "Astronomy"
+    },
+    {
+        "BCHM": "Biochemistry"
+    },
+    {
+        "BIOE": "Bioengineering"
+    },
+    {
+        "BIOL": "Biology"
+    },
+    {
+        "BIOM": "Biometrics"
+    },
+    {
+        "BIPH": "Biophysics"
+    },
+    {
+        "BISI": "Biological Sciences"
+    },
+    {
+        "BMGT": "Business and Management"
+    },
+    {
+        "BSOS": "Behavioral and Social Sciences"
+    },
+    {
+        "CCJS": "Criminology and Criminal Justice"
+    },
+    {
+        "CHBE": "Chemical and Biomolecular Engineering"
+    },
+    {
+        "CHEM": "Chemistry"
+    },
+    {
+        "CHIN": "Chinese"
+    },
+    {
+        "CHSE": "Counseling, Higher Education, and Special Education"
+    },
+    {
+        "CINE": "Cinema and Media Studies"
+    },
+    {
+        "CLAS": "Classics"
+    },
+    {
+        "CMLT": "Comparative Literature"
+    },
+    {
+        "CMSC": "Computer Science"
+    },
+    {
+        "COMM": "Communication"
+    },
+    {
+        "DANC": "Dance"
+    },
+    {
+        "DATA": "Data Science and Analytics"
+    },
+    {
+        "ECON": "Economics"
+    },
+    {
+        "ENAE": "Engineering, Aerospace"
+    },
+    {
+        "ENBC": "Biocomputational Engineering"
+    },
+    {
+        "ENCE": "Engineering, Civil"
+    },
+    {
+        "ENEB": "Cyber-Physical Systems Engineering"
+    },
+    {
+        "ENEE": "Electrical & Computer Engineering"
+    },
+    {
+        "ENES": "Engineering Science"
+    },
+    {
+        "ENFP": "Engineering, Fire Protection"
+    },
+    {
+        "ENGL": "English"
+    },
+    {
+        "ENMA": "Engineering, Materials"
+    },
+    {
+        "ENME": "Engineering, Mechanical"
+    },
+    {
+        "ENSP": "Environmental Science and Policy"
+    },
+    {
+        "ENST": "Environmental Science and Technology"
+    },
+    {
+        "FMSC": "Family Science"
+    },
+    {
+        "FREN": "French"
+    },
+    {
+        "GEOG": "Geographical Sciences"
+    },
+    {
+        "GEOL": "Geology"
+    },
+    {
+        "GERS": "German Studies"
+    },
+    {
+        "GREK": "Greek"
+    },
+    {
+        "GVPT": "Government and Politics"
+    },
+    {
+        "HEBR": "Hebrew"
+    },
+    {
+        "HESP": "Hearing and Speech Sciences"
+    },
+    {
+        "HISP": "Historic Preservation"
+    },
+    {
+        "HIST": "History"
+    },
+    {
+        "HLSA": "Health Services Administration"
+    },
+    {
+        "HLTH": "Health"
+    },
+    {
+        "IDEA": "Academy for Innovation & Entrepreneurship"
+    },
+    {
+        "IMDM": "Immersive Media Design"
+    },
+    {
+        "IMMR": "Immigration Studies"
+    },
+    {
+        "INFM": "Information Management"
+    },
+    {
+        "INST": "Information Studies"
+    },
+    {
+        "ISRL": "Israel Studies"
+    },
+    {
+        "ITAL": "Italian"
+    },
+    {
+        "JAPN": "Japanese"
+    },
+    {
+        "JOUR": "Journalism"
+    },
+    {
+        "JWST": "Jewish Studies"
+    },
+    {
+        "KNES": "Kinesiology"
+    },
+    {
+        "KORA": "Korean"
+    },
+    {
+        "LACS": "Latin American and Caribbean Studies"
+    },
+    {
+        "LARC": "Landscape Architecture"
+    },
+    {
+        "LATN": "Latin"
+    },
+    {
+        "LBSC": "Library Science"
+    },
+    {
+        "LEAD": "Leadership Education and Development"
+    },
+    {
+        "LGBT": "Lesbian Gay Bisexual Transgender Studies"
+    },
+    {
+        "LING": "Linguistics"
+    },
+    {
+        "MATH": "Mathematics"
+    },
+    {
+        "MUED": "Music Education"
+    },
+    {
+        "NACS": "Neuroscience & Cognitive Science"
+    },
+    {
+        "NEUR": "Neuroscience"
+    },
+    {
+        "NFSC": "Nutrition and Food Science"
+    },
+    {
+        "PERS": "Persian"
+    },
+    {
+        "PHIL": "Philosophy"
+    },
+    {
+        "PHYS": "Physics"
+    },
+    {
+        "PLCY": "Public Policy"
+    },
+    {
+        "PLSC": "Plant Sciences"
+    },
+    {
+        "PORT": "Portuguese"
+    },
+    {
+        "PSYC": "Psychology"
+    },
+    {
+        "RUSS": "Russian"
+    },
+    {
+        "SOCY": "Sociology"
+    },
+    {
+        "SPAN": "Spanish"
+    },
+    {
+        "STAT": "Statistics and Probability"
+    },
+    {
+        "THET": "Theatre"
+    },
+    {
+        "UNIV": "University Courses"
+    },
+    {
+        "WGSS": "Women, Gender, and Sexuality Studies"
+    }
+]

@@ -1,0 +1,4563 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>	<html lang="en-us" class="no-js ie6">	<![endif]-->
+<!--[if IE 7]>		<html lang="en-us" class="no-js ie7">	<![endif]-->
+<!--[if IE 8]>		<html lang="en-us" class="no-js ie8">	<![endif]-->
+<!--[if gte IE 9]>	<html lang="en-us" class="no-js ie9">	<![endif]-->
+<!--[if !IE]> -->
+<html class="no-js" lang="en-us">
+ <!-- <![endif]-->
+ <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta charset="utf-8"/>
+  <title>
+   Schedule of Classes
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <script data-dtconfig="app=f9eed1d550ab4737|cuc=ho113exc|mel=100000|featureHash=ICANVfqru|dpvc=1|ssv=4|lastModification=1715668020803|tp=500,50,0|rdnt=1|uxrgce=1|bp=3|agentUri=/soc/ruxitagentjs_ICANVfqru_10289240325103055.js|reportUrl=/soc/rb_bf07026pkt|rid=RID_-1771825808|rpid=-327882368|domain=umd.edu" src="/soc/ruxitagentjs_ICANVfqru_10289240325103055.js" type="text/javascript">
+  </script>
+  <link href="/soc/resources/images/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="/soc/resources/css/lib/jquery-ui-1.8.23-umd/jquery-ui-1.8.23-umd.css" media="screen" rel="stylesheet" type="text/css">
+   <link href="/soc/resources/css/umd.css" media="screen" rel="stylesheet" type="text/css"/>
+   <link href="/soc/resources/css/soc.css" media="screen" rel="stylesheet" type="text/css"/>
+   <!-- modernizr v2.6.2 -->
+   <script src="/soc/resources/js/lib/modernizr-2.6.2.min.js" type="text/javascript">
+   </script>
+   <!-- css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers -->
+   <script src="/soc/resources/js/lib/css3-mediaqueries.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery-1.8.1.min.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery-ui-1.8.23.min.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.ui.autocomplete.html.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.timeentry.pack.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/json2.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.cookie.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.pageslide.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/my-saved-list.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/soc.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.qtip-1.0.0-rc3.min.js" type="text/javascript">
+   </script>
+  </link>
+ </head>
+ <body>
+  <div class="container" id="umd-frame-wrapper">
+   <div id="umd-frame">
+    <div id="header-wrapper">
+     <div class="row" id="header">
+      <div class="six columns" id="umd-logo">
+       <a href="http://www.umd.edu/" target="_blank">
+        <img src="/soc/resources/images/umd-logo.gif"/>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div id="umd-container">
+     <div class="container" id="title-bar-wrapper">
+      <div class="row" id="title-bar">
+       <div id="mobile-umd-logo">
+        <a href="http://www.umd.edu" target="_blank">
+         <img src="/soc/resources/images/umd-informal-seal.png"/>
+        </a>
+       </div>
+       <div id="app-title">
+        <a href="/soc/">
+         <span id="app-title-text">
+          SCHEDULE of CLASSES
+         </span>
+        </a>
+       </div>
+       <div id="department-title">
+        <a href="https://registrar.umd.edu" target="_blank">
+         <span id="department-title-text">
+          OFFICE of the REGISTRAR
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="container" id="content-wrapper">
+      <div class="soc-content-container" id="all-courses-view">
+       <form action="/soc/search" id="course-search-form" method="get">
+        <div class="row">
+         <div id="site-nav">
+          <ul class="clearfix" id="site-menu">
+           <li class="selected-tab hover-tab">
+            <a href="/soc/">
+             All Courses
+            </a>
+           </li>
+           <li class="">
+            <a href="/soc/gen-ed/">
+             General Education Courses
+            </a>
+           </li>
+           <li class="">
+            <a href="/soc/saved/" id="my-saved-list-menu-item">
+             My Saved List (
+             <span id="overall-saved-course-count">
+              0
+             </span>
+             <span id="overall-saved-course-count-text">
+              Courses
+             </span>
+             )
+            </a>
+           </li>
+           <li class="">
+            <a href="/soc/exam/" id="exam-menu-item">
+             Final Exams
+            </a>
+           </li>
+           <li class="">
+            <a href="http://www.lib.umd.edu/univarchives/schedule-of-classes" id="exam-menu-item">
+             Past Schedules
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div id="search-box-wrapper">
+          <div class="container advanced-options-section-displayed" id="search-box">
+           <div class="sixteen colgrid" id="basic-options-section">
+            <div class="row" id="first-basic-options-row">
+             <div class="four columns" id="course-id-group">
+              <label class="combobox-label" for="course-id-input" id="ex1-label">
+               Course:
+              </label>
+              <div class="combobox-wrapper">
+               <div aria-expanded="false" aria-haspopup="listbox" aria-owns="ex1-listbox" id="ex1-combobox" role="combobox">
+                <input aria-autocomplete="list" aria-controls="ex1-listbox" aria-label="Course, must contain at least 4 characters course prefix such as CMSC optionally including course number" id="course-id-input" name="courseId" pattern="^([a-zA-Z]{0,4}|[a-zA-Z]{4}[0-9]{1,3}|[a-zA-Z]{4}[0-9]{3}[a-zA-Z])$" size="10" type="text" value="LBSC"/>
+               </div>
+               <ul aria-labelledby="ex1-label" class="listbox hidden" id="ex1-listbox" role="listbox">
+               </ul>
+              </div>
+             </div>
+             <div class="four columns" id="section-id-group">
+              <div>
+               <label for="section-id-input">
+                Section:
+               </label>
+               <input aria-label="Section, can optionally include 4 characters or numbers such as 0101" id="section-id-input" name="sectionId" pattern="^[a-zA-Z0-9]{0,4}$" size="6" type="text" value=""/>
+              </div>
+             </div>
+             <div class="five columns" id="term-id-group">
+              <div>
+               <label for="term-id-input" id="term-id-label">
+                Term:
+               </label>
+               <select id="term-id-input" name="termId">
+                <option value="202312">
+                 Winter 2024
+                </option>
+                <option value="202401">
+                 Spring 2024
+                </option>
+                <option value="202405">
+                 Summer 2024
+                </option>
+                <option selected="selected" value="202408">
+                 Fall 2024
+                </option>
+               </select>
+              </div>
+             </div>
+             <div class="one columns" id="search-button-container">
+              <input id="search-button" type="submit" value="Search"/>
+             </div>
+             <div class="two columns" id="clear-button-container">
+              <input formaction="/soc/clear" id="search-button" type="submit" value="Clear"/>
+             </div>
+            </div>
+            <div class="row" id="second-basic-options-row">
+             <div class="four columns" id="open-sections-only-group">
+              <input id="open-sections-only-checkbox" name="openSectionsOnly" type="checkbox" value="true"/>
+              <label for="open-sections-only-checkbox">
+               Open Sections Only
+              </label>
+              <input name="_openSectionsOnly" type="hidden" value="on"/>
+             </div>
+             <div class="four columns" id="credit-group">
+              <label for="credit-input">
+               Credit:
+              </label>
+              <select aria-label="Credit Filter" id="credit-input" name="creditCompare">
+               <option value="">
+               </option>
+               <option selected="selected" value="&gt;=">
+                &gt;=
+               </option>
+               <option value="=">
+                =
+               </option>
+               <option value="&lt;=">
+                &lt;=
+               </option>
+              </select>
+              <select aria-label="select number of credits" id="credits" name="credits">
+               <option value="">
+               </option>
+               <option selected="selected" value="0.0">
+                0.0
+               </option>
+               <option value="1.0">
+                1.0
+               </option>
+               <option value="2.0">
+                2.0
+               </option>
+               <option value="3.0">
+                3.0
+               </option>
+               <option value="4.0">
+                4.0
+               </option>
+              </select>
+             </div>
+             <div class="eight columns" id="course-level-group">
+              <div aria-labelledby="selected-level-radiobuttons" class="control" role="group">
+               <label for="selected-level-radiobuttons">
+                Level:
+               </label>
+               <span id="selected-level-radiobuttons">
+                <span>
+                 <input checked="checked" id="all-levels-radio-button" name="courseLevelFilter" type="radio" value="ALL"/>
+                 <label for="all-levels-radio-button">
+                  All
+                 </label>
+                </span>
+                <span>
+                 <input id="ugrad-level-radio-button" name="courseLevelFilter" type="radio" value="UGRAD"/>
+                 <label for="ugrad-level-radio-button">
+                  Undergraduate
+                 </label>
+                </span>
+                <span>
+                 <input id="grad-level-radio-button" name="courseLevelFilter" type="radio" value="GRAD"/>
+                 <label for="grad-level-radio-button">
+                  Graduate
+                 </label>
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="sixteen colgrid" id="advanced-options-section">
+            <div class="row" id="first-advance-options-row">
+             <div class="eight columns" id="instructor-id-group">
+              <div>
+               <label for="instructor-input">
+                Instructor(last,first):
+               </label>
+               <input class="ui-autocomplete-input" id="instructor-input" name="instructor" placeholder="Last Name, First Name" size="26" type="text" value=""/>
+              </div>
+             </div>
+             <div class="eight columns" id="delivery-modes-group">
+              <div aria-labelledby="selected-mode-checkboxes" class="control" role="group">
+               <label for="selected-mode-checkboxes">
+                Delivery:
+               </label>
+               <span id="selected-mode-checkboxes">
+                <span>
+                 <input id="ff" name="facetoface" type="checkbox" value="true"/>
+                 <label for="ff">
+                  Face-to-Face
+                 </label>
+                 <input name="_facetoface" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="bl" name="blended" type="checkbox" value="true"/>
+                 <label for="bl">
+                  Blended Learning
+                 </label>
+                 <input name="_blended" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="on" name="online" type="checkbox" value="true"/>
+                 <label for="on">
+                  Online
+                 </label>
+                 <input name="_online" type="hidden" value="on"/>
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+            <div class="row" id="second-advance-options-row">
+             <div class="eight columns" id="section-start-time-group">
+              <label for="start-time-input">
+               Start Time:
+              </label>
+              <!-- form:input path="classStartTime" size="5" id="start-time-input" / -->
+              <select aria-label="Start time filter" id="start-time-input" name="courseStartCompare">
+               <option selected="selected" value="">
+               </option>
+               <option value="after">
+                after
+               </option>
+               <option value="at">
+                at
+               </option>
+               <option value="before">
+                before
+               </option>
+               <option value="between">
+                between
+               </option>
+              </select>
+              <select aria-label="Hour" id="courseStartHour" name="courseStartHour">
+               <option selected="selected" value="">
+               </option>
+               <option value="01">
+                1
+               </option>
+               <option value="02">
+                2
+               </option>
+               <option value="03">
+                3
+               </option>
+               <option value="04">
+                4
+               </option>
+               <option value="05">
+                5
+               </option>
+               <option value="06">
+                6
+               </option>
+               <option value="07">
+                7
+               </option>
+               <option value="08">
+                8
+               </option>
+               <option value="09">
+                9
+               </option>
+               <option value="10">
+                10
+               </option>
+               <option value="11">
+                11
+               </option>
+               <option value="12">
+                12
+               </option>
+              </select>
+              <b>
+               :
+              </b>
+              <select aria-label="Minutes" id="courseStartMin" name="courseStartMin">
+               <option selected="selected" value="">
+               </option>
+               <option value="00">
+                00
+               </option>
+               <option value="15">
+                15
+               </option>
+               <option value="30">
+                30
+               </option>
+               <option value="45">
+                45
+               </option>
+              </select>
+              <select aria-label="AM or PM" id="courseStartAM" name="courseStartAM">
+               <option selected="selected" value="">
+               </option>
+               <option value="AM">
+                AM
+               </option>
+               <option lable="PM" value="PM">
+                PM
+               </option>
+              </select>
+             </div>
+             <div class="five columns" id="section-end-time-group">
+              <div id="end-time" style="display:none;">
+               <label for="end-time-input">
+                and
+               </label>
+               <select id="courseEndHour" name="courseEndHour">
+                <option selected="selected" value="">
+                </option>
+                <option value="01">
+                 1
+                </option>
+                <option value="02">
+                 2
+                </option>
+                <option value="03">
+                 3
+                </option>
+                <option value="04">
+                 4
+                </option>
+                <option value="05">
+                 5
+                </option>
+                <option value="06">
+                 6
+                </option>
+                <option value="07">
+                 7
+                </option>
+                <option value="08">
+                 8
+                </option>
+                <option value="09">
+                 9
+                </option>
+                <option value="10">
+                 10
+                </option>
+                <option value="11">
+                 11
+                </option>
+                <option value="12">
+                 12
+                </option>
+               </select>
+               <b>
+                :
+               </b>
+               <select id="courseEndMin" name="courseEndMin">
+                <option selected="selected" value="">
+                </option>
+                <option value="00">
+                 00
+                </option>
+                <option value="15">
+                 15
+                </option>
+                <option value="30">
+                 30
+                </option>
+                <option value="45">
+                 45
+                </option>
+               </select>
+               <select id="courseEndAM" name="courseEndAM">
+                <option selected="selected" value="">
+                </option>
+                <option value="AM">
+                 AM
+                </option>
+                <option lable="PM" value="PM">
+                 PM
+                </option>
+               </select>
+              </div>
+             </div>
+             <div class="eight columns" id="teaching-center-group">
+              <div>
+               <label for="teaching-center-input" id="teaching-center-label">
+                Location/Program:
+               </label>
+               <select aria-label="Location Program filter" id="teaching-center-input" name="teachingCenter">
+                <option value="ALL">
+                 Show All
+                </option>
+                <optgroup label="Location">
+                 <option value="*">
+                  College Park
+                 </option>
+                 <option value="DC">
+                  District of Columbia
+                 </option>
+                 <option value="FS">
+                  Frostburg State
+                 </option>
+                 <option value="HG">
+                  Hagerstown
+                 </option>
+                 <option value="HT">
+                  Heat Center, Hartford County
+                 </option>
+                 <option value="RB">
+                  Reagan Building
+                 </option>
+                 <option value="SG">
+                  Shady Grove
+                 </option>
+                 <option value="SM">
+                  Southern Maryland
+                 </option>
+                 <option value="BA">
+                  UMAB
+                 </option>
+                </optgroup>
+                <optgroup label="Program">
+                 <option value="FC">
+                  Freshmen Connection
+                 </option>
+                 <option value="PP">
+                  Professional Programs: Face-to-Face
+                 </option>
+                 <option value="OF">
+                  Professional Programs: Online
+                 </option>
+                 <option value="LS">
+                  Science in the Evening
+                 </option>
+                 <option value="SE">
+                  Universities at Shady Grove / EDUC
+                 </option>
+                </optgroup>
+               </select>
+              </div>
+             </div>
+            </div>
+            <div class="row" id="third-advance-options-row">
+             <div class="sixteen columns" id="course-days-group">
+              <div aria-labelledby="selected-days-checkboxes" class="control" role="group">
+               <label for="selected-days-checkboxes">
+                Course Days:
+               </label>
+               <span id="selected-days-checkboxes">
+                <span>
+                 <input id="classDays1" name="classDay1" type="checkbox" value="true"/>
+                 <label for="classDays1">
+                  Monday
+                 </label>
+                 <input name="_classDay1" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays2" name="classDay2" type="checkbox" value="true"/>
+                 <label for="classDays2">
+                  Tuesday
+                 </label>
+                 <input name="_classDay2" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays3" name="classDay3" type="checkbox" value="true"/>
+                 <label for="classDays3">
+                  Wednesday
+                 </label>
+                 <input name="_classDay3" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays4" name="classDay4" type="checkbox" value="true"/>
+                 <label for="classDays4">
+                  Thursday
+                 </label>
+                 <input name="_classDay4" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays5" name="classDay5" type="checkbox" value="true"/>
+                 <label for="classDays5">
+                  Friday
+                 </label>
+                 <input name="_classDay5" type="hidden" value="on"/>
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="row" id="advanced-options-toggle-container">
+           <div class="four columns centered">
+            <div class="button advanced-options-section-displayed" id="advanced-options-toggle">
+             <span id="advanced-options-toggle-left-arrows">
+             </span>
+             <span id="advanced-options-toggle-text">
+              <span id="advanced-options-toggle-state">
+               Hide
+               <!--
+								
+									
+									Hide
+								
+								-->
+              </span>
+              Advanced Options
+             </span>
+             <span id="advanced-options-toggle-right-arrows">
+             </span>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </form>
+       <script type="text/javascript">
+        $(document).ready(function() {
+		SocJs.initSearchBox('/soc', '/');
+	});
+       </script>
+       <div id="page-desc-wrapper">
+        <div id="page-desc-bar">
+         <div id="left-parallelogram">
+         </div>
+         <div id="page-desc">
+          Courses - Fall 2024
+         </div>
+         <div id="right-parallelogram">
+         </div>
+         <div id="site-menu-container">
+          <span id="site-menu-button">
+           <a class="site-menu-button-link" href="#">
+            <img src="/soc/resources/images/menu-button.png">
+            </img>
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="row" id="courses-page">
+        <!-- to be passed to sections.jsp, cannot work with lesser scopes -->
+        <input name="selectedTermId" type="hidden" value="202408"/>
+        <div class="course-prefix-container" id="LBSC">
+         <input name="coursePrefix" type="hidden" value="LBSC"/>
+         <div class="course-prefix-info">
+          <div class="row">
+           <div class="course-prefix-abbr-container one columns">
+            <span class="course-prefix-abbr">
+             LBSC
+            </span>
+           </div>
+           <div class="nine columns">
+            <span class="course-prefix-name">
+             Library Science
+            </span>
+            <span class="seats-update-time" id="seats-update-time" style="font-size: 12px;line-height: 12px;float: right;text-align: center;">
+             <div>
+              Open Seats as of
+             </div>
+             <div>
+              05/20/2024 at 01:30 PM
+             </div>
+            </span>
+           </div>
+           <div class="two columns">
+            <span id="print-link" style="padding-left:0;">
+             <a href="/soc/courses.pdf?termId=202408&amp;prefix=LBSC&amp;genEdCode=&amp;coreCode=" target="_blank">
+              <img src="/soc/resources/images/print-icon.png" title="Print">
+              </img>
+             </a>
+            </span>
+            <span id="show-all-sections-button-wrapper">
+             <input id="show-all-sections-button" type="button" value="Hide All Sections"/>
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="courses-container">
+          <div class="course" id="LBSC602">
+           <input name="courseId" type="hidden" value="LBSC602"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC602
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Serving Information Needs
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (4)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC602"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC602-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC602', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                   <div>
+                    <strong>
+                     Credit only granted for:
+                    </strong>
+                    LBSC602, or both LBSC601 and LBSC650.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 An introduction to the skills necessary to interact directly with individuals through the exploration of user behavior theory, strategies to locate and evaluate information from print and electronic resources, and policies and procedures to ensure that all individuals can become information literate.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC602?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Instructor: TBA
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           9
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC602', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM02"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM02
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Instructor: TBA
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           0
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC602', 'IM02', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        Tu
+                       </span>
+                       <span class="class-start-time">
+                        6:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        8:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          HBK
+                         </span>
+                         <span class="class-room">
+                          2119
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC631">
+           <input name="courseId" type="hidden" value="LBSC631"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC631
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Achieving Organizational Excellence
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (3)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC631"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC631-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC631', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                   <div>
+                    <strong>
+                     Credit only granted for:
+                    </strong>
+                    LBSC631 or LBSC635.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Overview of the principles, practices, and techniques required for effective leadership and management. The innovative strategies, management responsibilities, and skills needed to achieve and sustain high organizational performance in information-based cultural institutions.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC631?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Instructor: TBA
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           8
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC631', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM02"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM02
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Ryan O'Grady
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           20
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC631', 'IM02', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        Th
+                       </span>
+                       <span class="class-start-time">
+                        6:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        8:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          HBK
+                         </span>
+                         <span class="class-room">
+                          0302H
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC644">
+           <input name="courseId" type="hidden" value="LBSC644"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC644
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Collection Development
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC644"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC644-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC644', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    LBSC602; or permission of instructor.
+                   </div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                   <div>
+                    <strong>
+                     Credit only granted for:
+                    </strong>
+                    LBSC 644 or LBSC 708G.
+                   </div>
+                   <div>
+                    <strong>
+                     Formerly:
+                    </strong>
+                    LBSC 708G.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Activities through which library collections are systematically developed and managed are explored, especially the formulation and implementation of written collection development policies. Other specific topics include identification of user needs; collection evaluation; fund allocation among competing departments, subjects, and/or media; selection methods; intellectual freedom; storage alternatives; and cooperative collection development.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC644?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Morgan Adle
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           0
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC644', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC645">
+           <input name="courseId" type="hidden" value="LBSC645"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC645
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Literature and Materials for Children
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (3)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC645"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC645-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC645', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Survey of literature and other materials for children and youth. Criteria for evaluating and using such materials as they relate to the needs, interests, reading abilities, and other capabilities of young readers.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC645?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Jennifer Sturge
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           20
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC645', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC671">
+           <input name="courseId" type="hidden" value="LBSC671"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC671
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 The Lifecycle of Information
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (7)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC671"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC671-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC671', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                   <div>
+                    <strong>
+                     Credit only granted for:
+                    </strong>
+                    LBSC671, or LBSC670 and LBSC690.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Introduction to methods used to create, acquire, organize, manage and preserve information. Information systems currently used to support digital and physical libraries, databases, and repositories will be explored.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC671?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Kathy Weaver
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           8
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC671', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM02"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM02
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Instructor: TBA
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           40
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           28
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC671', 'IM02', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        W
+                       </span>
+                       <span class="class-start-time">
+                        6:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        8:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          HBK
+                         </span>
+                         <span class="class-room">
+                          0115
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC702">
+           <input name="courseId" type="hidden" value="LBSC702"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC702
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 User Instruction
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (2)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC702"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC702-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC702', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    LBSC602; or permission of instructor.
+                   </div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Critical analysis of the rationale, content, and processes of user instruction in library and information settings.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC702?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Kathy Weaver
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           20
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC702', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC707">
+           <input name="courseId" type="hidden" value="LBSC707"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC707
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Field Study in Information Service
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (2)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC707"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC707-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC707', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    LBSC602, LBSC671, and LBSC631; and must have completed an additional 9 credits. Or permission of instructor.
+                   </div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Must be in Library and Information Science (Master's) program; and permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Supervised internship experience in a library, archive, museum, or other information organization.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC707?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Abbie Basile
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           23
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC707', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC708Y">
+           <input name="courseId" type="hidden" value="LBSC708Y"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC708Y
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Special Topics in Library and Information Science; Community Archives
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC708Y"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC708Y-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC708Y', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC708Y?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Eric Hung
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           21
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC708Y', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        W
+                       </span>
+                       <span class="class-start-time">
+                        2:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        4:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          PLS
+                         </span>
+                         <span class="class-room">
+                          1113
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC723">
+           <input name="courseId" type="hidden" value="LBSC723"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC723
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Advocacy and Support for Information Services
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC723"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC723-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC723', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Role and influence of government, foundations, associations, and other organizations in supporting and setting the agenda for information services of all types. Role of information professionals in demonstrating advocacy, fund-raising, public relations, lobbying, and seeking external support.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC723?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Abbie Basile
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           23
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC723', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC724">
+           <input name="courseId" type="hidden" value="LBSC724"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC724
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Public Library Seminar
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (1)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC724"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC724-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC724', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Organization, support, and service patterns of public libraries. The public library in national, state, and local contexts.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC724?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Ryan O'Grady
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           21
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC724', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        M
+                       </span>
+                       <span class="class-start-time">
+                        2:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        4:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          HBK
+                         </span>
+                         <span class="class-room">
+                          0105
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC731">
+           <input name="courseId" type="hidden" value="LBSC731"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC731
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Special Collections
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC731"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC731-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC731', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    LBSC602; or permission of instructor.
+                   </div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Management of special collections, whose holdings may include manuscripts (particularly personal papers), non-textual materials, graphical materials, and rare books, with analysis of the custodial and management functions associated with special collections.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC731?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Victoria Van Hyning
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           21
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC731', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        M
+                       </span>
+                       <span class="class-start-time">
+                        2:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        4:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          HBK
+                         </span>
+                         <span class="class-room">
+                          0115
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC742">
+           <input name="courseId" type="hidden" value="LBSC742"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC742
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Collaborative Instructional Design and Evaluation
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (2)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC742"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC742-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC742', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    INST650; or permission of instructor.
+                   </div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 School librarians' collaborative role in instruction. Systematic design, development, and evaluation of instructional strategies and products for learning.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC742?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Instructor: TBA
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           25
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC742', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC749">
+           <input name="courseId" type="hidden" value="LBSC749"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC749
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Internship in School Libraries
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC749"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC749-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC749', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  1
+                 </span>
+                 -
+                 <span class="course-max-credits">
+                  6
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC749?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Bridgette Comanda
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           28
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC749', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC751">
+           <input name="courseId" type="hidden" value="LBSC751"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC751
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Research and Teaching Fellowship II
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC751"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC751-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC751', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  1
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular">
+                   <span>
+                    Reg
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Part of the Research and Teaching Fellowship program, a three-semester teacher training and professional development program in academic libraries. Fellows will complete weekly readings, complete weekly teaching reflections, and begin preparations for the academic job search.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC751?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Instructor: TBA
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           7
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           2
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC751', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        Tu
+                       </span>
+                       <span class="class-start-time">
+                        11:00am
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        11:50am
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          MCK
+                         </span>
+                         <span class="class-room">
+                          4100A
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="LBSC770">
+           <input name="courseId" type="hidden" value="LBSC770"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              LBSC770
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Metadata and Tools for Information Professionals
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (1)
+                   </span>
+                   <input name="courseId" type="hidden" value="LBSC770"/>
+                  </a>
+                 </legend>
+                 <div id="LBSC770-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC770', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Prerequisite:
+                    </strong>
+                    LBSC671; or permission of instructor.
+                   </div>
+                   <div>
+                    <strong>
+                     Restriction:
+                    </strong>
+                    Permission of INFO-College of Information Studies.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Principles, standards, and practices of information representation to facilitate accessing needed information in digital bibliographic environments. Includes exposure to Metadata, XML, RDA/AACR2R, DTDs, MARC, Dublin Core, MODS, ISBN and ISSN, FRBR, FRAD, Classification systems, and Controlled Vocabularies such as LCSH, SEARS, NLM, Getty and ERIC Thesauri, and others.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/LBSC/LBSC770?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="IM01"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        IM01
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         Michelle McDaniel
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           16
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'LBSC770', 'IM01', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        W
+                       </span>
+                       <span class="class-start-time">
+                        6:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        8:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          HBK
+                         </span>
+                         <span class="class-room">
+                          2119
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <script type="text/javascript">
+        $(document).ready(function() {
+		SocJs.initCoursesPage('/soc', '/', '202408', 'ALL', true);
+	});
+       </script>
+      </div>
+      <div id="page-overlay">
+      </div>
+      <div id="footer-push">
+      </div>
+     </div>
+     <div id="footer-wrapper">
+      <div class="container sixteen colgrid" id="footer">
+       <div class="row" id="footer-inner">
+        <div class="seven columns" id="umd-institution-info">
+         <div id="usm-info">
+          Flagship Institution of the
+          <a href="http://www.usmd.edu/">
+           University System of Maryland
+          </a>
+         </div>
+         <div id="umd-address-info">
+          <span id="umd-address">
+           University of Maryland, College Park, MD 20742, USA
+          </span>
+          <span id="umd-address-separator">
+           /
+          </span>
+          <span id="umd-phone-label">
+           Phone:
+          </span>
+          <span id="umd-phone">
+           301.405.1000
+          </span>
+         </div>
+        </div>
+        <div class="two columns" id="umd-terrapin-shell">
+         <a href="http://www.umd.edu" target="_blank">
+          <img src="/soc/resources/images/terrapin-shell.png">
+          </img>
+         </a>
+        </div>
+        <div class="seven columns" id="umd-other-info">
+         <span id="umd-copyright-label">
+          Copyright
+         </span>
+         <span id="umd-copyright">
+          © 2024 University of Maryland
+         </span>
+         <span id="umd-copyright-separator">
+          /
+         </span>
+         <span id="umd-privacy-link">
+          <a href="https://umd.service-now.com/itsc?id=kb_article&amp;article=KB0012192" target="_blank">
+           Privacy
+          </a>
+          /
+          <a href="https://umd.edu/web-accessibility" target="_blank">
+           Web Accessibility
+          </a>
+         </span>
+         <span id="umd-contact-info">
+          <a href="mailto:registrar-help@umd.edu">
+           Contact us
+          </a>
+          <span id="umd-contact-rest">
+           with comments, questions and feedback
+          </span>
+          <span id="umd-contact-separator">
+           /
+          </span>
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="https://ai.ocelotbot.com/embed/standard/83a41119-e8e0-4799-859e-396d1db19c21" type="text/javascript">
+  </script>
+ </body>
+</html>

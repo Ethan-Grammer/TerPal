@@ -1,0 +1,497 @@
+{
+    "Student's Completed CMSC courses": {
+        "CMSC131": {
+            "Title": "OBJECT-ORIENTED PROG I",
+            "Grade": "P",
+            "Credits Earned": 4.0,
+            "Gen Eds": []
+        },
+        "CMSC132": {
+            "Title": "OBJECT-ORIENTED PROG II",
+            "Grade": "C",
+            "Credits Earned": 4.0,
+            "Gen Eds": []
+        },
+        "CMSC216": {
+            "Title": "INTRO TO CMPTR SYSTEMS",
+            "Grade": "C+",
+            "Credits Earned": 4.0,
+            "Gen Eds": []
+        },
+        "CMSC250": {
+            "Title": "DISCRETE STRUCTURES",
+            "Grade": "C+",
+            "Credits Earned": 4.0,
+            "Gen Eds": []
+        },
+        "CMSC330": {
+            "Title": "ORGNZTN PROGM LANG",
+            "Grade": "C",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CMSC335": {
+            "Title": "WEB APPLICATION DVLPMNT",
+            "Grade": "C+",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CMSC351": {
+            "Title": "ALGORITHMS",
+            "Grade": "C",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CMSC320": {
+            "Title": "INTRO TO DATA SCIENCE",
+            "Grade": "B-",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CMSC420": {
+            "Title": "ADV DATA STRUCTURES",
+            "Grade": "B",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CMSC425": {
+            "Title": "GAME PROGRAMMING",
+            "Grade": "W",
+            "Credits Earned": 0.0,
+            "Gen Eds": []
+        },
+        "CMSC411": {
+            "Title": "SYSTM ARCHITECTURE",
+            "Grade": "C+",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CMSC430": {
+            "Title": "INTRO TO COMPILERS",
+            "Grade": "F",
+            "Credits Earned": 0.0,
+            "Gen Eds": []
+        },
+        "CMSC398J": {
+            "Title": "INTR COMB GAME THEORY",
+            "Grade": "A+",
+            "Credits Earned": 1.0,
+            "Gen Eds": []
+        },
+        "CMSC451": {
+            "Title": "DSGN & ANLYS CMPTR ALGOR",
+            "Grade": "B+",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        }
+    },
+    "Student's Completed Elective courses": {
+        "ASTR230": {
+            "Title": "SCIENCE&FCTN OF PLANETS",
+            "Grade": "C",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS",
+                "SCIS"
+            ]
+        },
+        "ENGL101": {
+            "Title": "ACADEMIC WRITING",
+            "Grade": "C+",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "FSAW"
+            ]
+        },
+        "JOUR289P": {
+            "Title": "EXPOSING CORRUPTION",
+            "Grade": "C",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHS",
+                "SCIS"
+            ]
+        },
+        "MATH140": {
+            "Title": "CALCULUS I",
+            "Grade": "B",
+            "Credits Earned": 4.0,
+            "Gen Eds": [
+                "FSAR",
+                "FSMA"
+            ]
+        },
+        "UNIV100": {
+            "Title": "STUDENT IN UNIVERSITY",
+            "Grade": "C+",
+            "Credits Earned": 1.0,
+            "Gen Eds": []
+        },
+        "MATH141": {
+            "Title": "CALCULUS II",
+            "Grade": "C-",
+            "Credits Earned": 4.0,
+            "Gen Eds": []
+        },
+        "PHYS106": {
+            "Title": "LIGHT PERCPT & PHENOM",
+            "Grade": "P",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNL"
+            ]
+        },
+        "PHYS107": {
+            "Title": "VISUAL PHENOM LAB",
+            "Grade": "P",
+            "Credits Earned": 1.0,
+            "Gen Eds": []
+        },
+        "AAST233": {
+            "Title": "INTRO ASIAN AMERICAN LIT",
+            "Grade": "B",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHU",
+                "DVUP"
+            ]
+        },
+        "ARTT100": {
+            "Title": "2D-DESIGN FUNDAMENTALS",
+            "Grade": "A",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSSP"
+            ]
+        },
+        "ANSC101": {
+            "Title": "PRIN OF ANIMAL SCIENCE",
+            "Grade": "P",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "CCJS100": {
+            "Title": "INTRO CCJS",
+            "Grade": "P",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHS"
+            ]
+        },
+        "ENSP102": {
+            "Title": "INTRO ENVIRON POLICY",
+            "Grade": "W",
+            "Credits Earned": 0.0,
+            "Gen Eds": [
+                "DSHS"
+            ]
+        },
+        "MUSC130": {
+            "Title": "SURVEY MUSIC LIT",
+            "Grade": "A",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHU"
+            ]
+        },
+        "ENEE131": {
+            "Title": "TECHNOLOGY CHOICES",
+            "Grade": "A+",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSSP",
+                "SCIS"
+            ]
+        },
+        "ENES210": {
+            "Title": "ENT OPPORTUNITY ANALYSIS",
+            "Grade": "C+",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSSP",
+                "SCIS"
+            ]
+        },
+        "GEOG202": {
+            "Title": "INTRO HUMAN GEOGRAPHY",
+            "Grade": "B+",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHS",
+                "DVCC"
+            ]
+        },
+        "STAT400": {
+            "Title": "APPLIED PROB & STAT I",
+            "Grade": "B-",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "ASTR100": {
+            "Title": "INTRO TO ASTRONOMY",
+            "Grade": "D-",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS"
+            ]
+        },
+        "ASTR330": {
+            "Title": "SOLAR SYSTEM ASTR",
+            "Grade": "D",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS"
+            ]
+        },
+        "COMM107": {
+            "Title": "ORAL COMM PRIN",
+            "Grade": "B",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "FSOC"
+            ]
+        },
+        "ASTR350": {
+            "Title": "BLACK HOLES",
+            "Grade": "B",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS"
+            ]
+        },
+        "AASP202": {
+            "Title": "BLACK CULTURE IN US",
+            "Grade": "B",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHS",
+                "DVUP"
+            ]
+        },
+        "ASTR380": {
+            "Title": "LIFE IN UNIVERSE-ASTRBIO",
+            "Grade": "C+",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS"
+            ]
+        },
+        "ECON200": {
+            "Title": "MICROECONOMIC PRINCIPLES",
+            "Grade": "B-",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSHS"
+            ]
+        },
+        "AREC365": {
+            "Title": "HUNGER, POP, & FOOD",
+            "Grade": "B",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DVUP"
+            ]
+        },
+        "ASTR340": {
+            "Title": "ORIGIN OF UNIVERSE",
+            "Grade": "B+",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS"
+            ]
+        },
+        "MATH240": {
+            "Title": "INTRO LINEAR ALGEBRA",
+            "Grade": "C-",
+            "Credits Earned": 4.0,
+            "Gen Eds": []
+        },
+        "MATH274": {
+            "Title": "HISTORY OF MATHEMATICS",
+            "Grade": "C+",
+            "Credits Earned": 3.0,
+            "Gen Eds": []
+        },
+        "BMGT289B": {
+            "Title": "HOW DO INNOVATORS THINK?",
+            "Grade": "NG",
+            "Credits Earned": 0.0,
+            "Gen Eds": [
+                "DSSP",
+                "SCIS"
+            ]
+        },
+        "DATA250": {
+            "Title": "DISCRETE MATHEMATICS",
+            "Grade": "NG",
+            "Credits Earned": 0.0,
+            "Gen Eds": []
+        },
+        "ENGL393": {
+            "Title": "TECHNICAL WRITING",
+            "Grade": "NG",
+            "Credits Earned": 0.0,
+            "Gen Eds": [
+                "FSPW"
+            ]
+        },
+        "GEOL100": {
+            "Title": "PHYSICAL GEOLOGY",
+            "Grade": "A",
+            "Credits Earned": 3.0,
+            "Gen Eds": [
+                "DSNS"
+            ]
+        },
+        "IDEA201": {
+            "Title": "INNOVATION TOOLS & MINDS",
+            "Grade": "NG",
+            "Credits Earned": 0.0,
+            "Gen Eds": []
+        },
+        "INST201": {
+            "Title": "INTRO INFORMATION SCI",
+            "Grade": "NG",
+            "Credits Earned": 0.0,
+            "Gen Eds": [
+                "DSHS"
+            ]
+        },
+        "SOCY105": {
+            "Title": "INTRO CNTMP SOC PRB",
+            "Grade": "NG",
+            "Credits Earned": 0.0,
+            "Gen Eds": [
+                "DSHS"
+            ]
+        }
+    },
+    "Student's Semester Information": {
+        "Spring 2024": {
+            "Details": {
+                "Total Credits Attempted": "14.00",
+                "Earned": "14.00",
+                "QPoints": "30.40",
+                "GPA": "2.171"
+            },
+            "Cumulative": {
+                "Attempted": "14.00",
+                "Earned": "14.00",
+                "QPoints": "30.40",
+                "GPA": "2.171"
+            }
+        },
+        "Spring 2020": {
+            "Details": {
+                "Total Credits Attempted": "4.00",
+                "Earned": "8.00",
+                "QPoints": "0.00",
+                "GPA": "0.000"
+            },
+            "Cumulative": {
+                "Attempted": "18.00",
+                "Earned": "22.00",
+                "QPoints": "30.40",
+                "GPA": "1.688"
+            }
+        },
+        "Fall 2020": {
+            "Details": {
+                "Total Credits Attempted": "11.00",
+                "Earned": "11.00",
+                "QPoints": "23.80",
+                "GPA": "2.163"
+            },
+            "Cumulative": {
+                "Attempted": "25.00",
+                "Earned": "33.00",
+                "QPoints": "54.20",
+                "GPA": "2.168"
+            }
+        },
+        "Spring 2021": {
+            "Details": {
+                "Total Credits Attempted": "3.00",
+                "Earned": "9.00",
+                "QPoints": "12.00",
+                "GPA": "4.000"
+            },
+            "Cumulative": {
+                "Attempted": "28.00",
+                "Earned": "42.00",
+                "QPoints": "66.20",
+                "GPA": "2.364"
+            }
+        },
+        "Fall 2021": {
+            "Details": {
+                "Total Credits Attempted": "14.00",
+                "Earned": "14.00",
+                "QPoints": "35.20",
+                "GPA": "2.514"
+            },
+            "Cumulative": {
+                "Attempted": "45.00",
+                "Earned": "59.00",
+                "QPoints": "116.20",
+                "GPA": "2.582"
+            }
+        },
+        "Spring 2022": {
+            "Details": {
+                "Total Credits Attempted": "12.00",
+                "Earned": "12.00",
+                "QPoints": "20.10",
+                "GPA": "1.675"
+            },
+            "Cumulative": {
+                "Attempted": "57.00",
+                "Earned": "71.00",
+                "QPoints": "136.30",
+                "GPA": "2.391"
+            }
+        },
+        "Fall 2022": {
+            "Details": {
+                "Total Credits Attempted": "9.00",
+                "Earned": "9.00",
+                "QPoints": "26.10",
+                "GPA": "2.900"
+            },
+            "Cumulative": {
+                "Attempted": "72.00",
+                "Earned": "86.00",
+                "QPoints": "175.30",
+                "GPA": "2.434"
+            }
+        },
+        "Spring 2023": {
+            "Details": {
+                "Total Credits Attempted": "12.00",
+                "Earned": "12.00",
+                "QPoints": "36.00",
+                "GPA": "3.000"
+            },
+            "Cumulative": {
+                "Attempted": "84.00",
+                "Earned": "98.00",
+                "QPoints": "211.30",
+                "GPA": "2.515"
+            }
+        },
+        "Fall 2023": {
+            "Details": {
+                "Total Credits Attempted": "20.00",
+                "Earned": "20.00",
+                "QPoints": "54.60",
+                "GPA": "2.730"
+            },
+            "Cumulative": {
+                "Attempted": "110.00",
+                "Earned": "121.00",
+                "QPoints": "272.80",
+                "GPA": "2.480"
+            }
+        }
+    }
+}

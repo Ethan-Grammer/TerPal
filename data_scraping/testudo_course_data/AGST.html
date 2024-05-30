@@ -1,0 +1,2197 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>	<html lang="en-us" class="no-js ie6">	<![endif]-->
+<!--[if IE 7]>		<html lang="en-us" class="no-js ie7">	<![endif]-->
+<!--[if IE 8]>		<html lang="en-us" class="no-js ie8">	<![endif]-->
+<!--[if gte IE 9]>	<html lang="en-us" class="no-js ie9">	<![endif]-->
+<!--[if !IE]> -->
+<html class="no-js" lang="en-us">
+ <!-- <![endif]-->
+ <head>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta charset="utf-8"/>
+  <title>
+   Schedule of Classes
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <script data-dtconfig="app=f9eed1d550ab4737|cuc=ho113exc|mel=100000|featureHash=ICANVfqru|dpvc=1|ssv=4|lastModification=1715668020803|tp=500,50,0|rdnt=1|uxrgce=1|bp=3|agentUri=/soc/ruxitagentjs_ICANVfqru_10289240325103055.js|reportUrl=/soc/rb_bf07026pkt|rid=RID_1152907377|rpid=1821328311|domain=umd.edu" src="/soc/ruxitagentjs_ICANVfqru_10289240325103055.js" type="text/javascript">
+  </script>
+  <link href="/soc/resources/images/favicon.ico" rel="icon" type="image/x-icon"/>
+  <link href="/soc/resources/css/lib/jquery-ui-1.8.23-umd/jquery-ui-1.8.23-umd.css" media="screen" rel="stylesheet" type="text/css">
+   <link href="/soc/resources/css/umd.css" media="screen" rel="stylesheet" type="text/css"/>
+   <link href="/soc/resources/css/soc.css" media="screen" rel="stylesheet" type="text/css"/>
+   <!-- modernizr v2.6.2 -->
+   <script src="/soc/resources/js/lib/modernizr-2.6.2.min.js" type="text/javascript">
+   </script>
+   <!-- css3-mediaqueries-js - http://code.google.com/p/css3-mediaqueries-js/ - Enables media queries in some unsupported browsers -->
+   <script src="/soc/resources/js/lib/css3-mediaqueries.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery-1.8.1.min.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery-ui-1.8.23.min.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.ui.autocomplete.html.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.timeentry.pack.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/json2.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.cookie.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.pageslide.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/my-saved-list.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/soc.js" type="text/javascript">
+   </script>
+   <script src="/soc/resources/js/lib/jquery.qtip-1.0.0-rc3.min.js" type="text/javascript">
+   </script>
+  </link>
+ </head>
+ <body>
+  <div class="container" id="umd-frame-wrapper">
+   <div id="umd-frame">
+    <div id="header-wrapper">
+     <div class="row" id="header">
+      <div class="six columns" id="umd-logo">
+       <a href="http://www.umd.edu/" target="_blank">
+        <img src="/soc/resources/images/umd-logo.gif"/>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div id="umd-container">
+     <div class="container" id="title-bar-wrapper">
+      <div class="row" id="title-bar">
+       <div id="mobile-umd-logo">
+        <a href="http://www.umd.edu" target="_blank">
+         <img src="/soc/resources/images/umd-informal-seal.png"/>
+        </a>
+       </div>
+       <div id="app-title">
+        <a href="/soc/">
+         <span id="app-title-text">
+          SCHEDULE of CLASSES
+         </span>
+        </a>
+       </div>
+       <div id="department-title">
+        <a href="https://registrar.umd.edu" target="_blank">
+         <span id="department-title-text">
+          OFFICE of the REGISTRAR
+         </span>
+        </a>
+       </div>
+      </div>
+     </div>
+     <div class="container" id="content-wrapper">
+      <div class="soc-content-container" id="all-courses-view">
+       <form action="/soc/search" id="course-search-form" method="get">
+        <div class="row">
+         <div id="site-nav">
+          <ul class="clearfix" id="site-menu">
+           <li class="selected-tab hover-tab">
+            <a href="/soc/">
+             All Courses
+            </a>
+           </li>
+           <li class="">
+            <a href="/soc/gen-ed/">
+             General Education Courses
+            </a>
+           </li>
+           <li class="">
+            <a href="/soc/saved/" id="my-saved-list-menu-item">
+             My Saved List (
+             <span id="overall-saved-course-count">
+              0
+             </span>
+             <span id="overall-saved-course-count-text">
+              Courses
+             </span>
+             )
+            </a>
+           </li>
+           <li class="">
+            <a href="/soc/exam/" id="exam-menu-item">
+             Final Exams
+            </a>
+           </li>
+           <li class="">
+            <a href="http://www.lib.umd.edu/univarchives/schedule-of-classes" id="exam-menu-item">
+             Past Schedules
+            </a>
+           </li>
+          </ul>
+         </div>
+         <div id="search-box-wrapper">
+          <div class="container advanced-options-section-displayed" id="search-box">
+           <div class="sixteen colgrid" id="basic-options-section">
+            <div class="row" id="first-basic-options-row">
+             <div class="four columns" id="course-id-group">
+              <label class="combobox-label" for="course-id-input" id="ex1-label">
+               Course:
+              </label>
+              <div class="combobox-wrapper">
+               <div aria-expanded="false" aria-haspopup="listbox" aria-owns="ex1-listbox" id="ex1-combobox" role="combobox">
+                <input aria-autocomplete="list" aria-controls="ex1-listbox" aria-label="Course, must contain at least 4 characters course prefix such as CMSC optionally including course number" id="course-id-input" name="courseId" pattern="^([a-zA-Z]{0,4}|[a-zA-Z]{4}[0-9]{1,3}|[a-zA-Z]{4}[0-9]{3}[a-zA-Z])$" size="10" type="text" value="AGST"/>
+               </div>
+               <ul aria-labelledby="ex1-label" class="listbox hidden" id="ex1-listbox" role="listbox">
+               </ul>
+              </div>
+             </div>
+             <div class="four columns" id="section-id-group">
+              <div>
+               <label for="section-id-input">
+                Section:
+               </label>
+               <input aria-label="Section, can optionally include 4 characters or numbers such as 0101" id="section-id-input" name="sectionId" pattern="^[a-zA-Z0-9]{0,4}$" size="6" type="text" value=""/>
+              </div>
+             </div>
+             <div class="five columns" id="term-id-group">
+              <div>
+               <label for="term-id-input" id="term-id-label">
+                Term:
+               </label>
+               <select id="term-id-input" name="termId">
+                <option value="202312">
+                 Winter 2024
+                </option>
+                <option value="202401">
+                 Spring 2024
+                </option>
+                <option value="202405">
+                 Summer 2024
+                </option>
+                <option selected="selected" value="202408">
+                 Fall 2024
+                </option>
+               </select>
+              </div>
+             </div>
+             <div class="one columns" id="search-button-container">
+              <input id="search-button" type="submit" value="Search"/>
+             </div>
+             <div class="two columns" id="clear-button-container">
+              <input formaction="/soc/clear" id="search-button" type="submit" value="Clear"/>
+             </div>
+            </div>
+            <div class="row" id="second-basic-options-row">
+             <div class="four columns" id="open-sections-only-group">
+              <input id="open-sections-only-checkbox" name="openSectionsOnly" type="checkbox" value="true"/>
+              <label for="open-sections-only-checkbox">
+               Open Sections Only
+              </label>
+              <input name="_openSectionsOnly" type="hidden" value="on"/>
+             </div>
+             <div class="four columns" id="credit-group">
+              <label for="credit-input">
+               Credit:
+              </label>
+              <select aria-label="Credit Filter" id="credit-input" name="creditCompare">
+               <option value="">
+               </option>
+               <option selected="selected" value="&gt;=">
+                &gt;=
+               </option>
+               <option value="=">
+                =
+               </option>
+               <option value="&lt;=">
+                &lt;=
+               </option>
+              </select>
+              <select aria-label="select number of credits" id="credits" name="credits">
+               <option value="">
+               </option>
+               <option selected="selected" value="0.0">
+                0.0
+               </option>
+               <option value="1.0">
+                1.0
+               </option>
+               <option value="2.0">
+                2.0
+               </option>
+               <option value="3.0">
+                3.0
+               </option>
+               <option value="4.0">
+                4.0
+               </option>
+              </select>
+             </div>
+             <div class="eight columns" id="course-level-group">
+              <div aria-labelledby="selected-level-radiobuttons" class="control" role="group">
+               <label for="selected-level-radiobuttons">
+                Level:
+               </label>
+               <span id="selected-level-radiobuttons">
+                <span>
+                 <input checked="checked" id="all-levels-radio-button" name="courseLevelFilter" type="radio" value="ALL"/>
+                 <label for="all-levels-radio-button">
+                  All
+                 </label>
+                </span>
+                <span>
+                 <input id="ugrad-level-radio-button" name="courseLevelFilter" type="radio" value="UGRAD"/>
+                 <label for="ugrad-level-radio-button">
+                  Undergraduate
+                 </label>
+                </span>
+                <span>
+                 <input id="grad-level-radio-button" name="courseLevelFilter" type="radio" value="GRAD"/>
+                 <label for="grad-level-radio-button">
+                  Graduate
+                 </label>
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="sixteen colgrid" id="advanced-options-section">
+            <div class="row" id="first-advance-options-row">
+             <div class="eight columns" id="instructor-id-group">
+              <div>
+               <label for="instructor-input">
+                Instructor(last,first):
+               </label>
+               <input class="ui-autocomplete-input" id="instructor-input" name="instructor" placeholder="Last Name, First Name" size="26" type="text" value=""/>
+              </div>
+             </div>
+             <div class="eight columns" id="delivery-modes-group">
+              <div aria-labelledby="selected-mode-checkboxes" class="control" role="group">
+               <label for="selected-mode-checkboxes">
+                Delivery:
+               </label>
+               <span id="selected-mode-checkboxes">
+                <span>
+                 <input id="ff" name="facetoface" type="checkbox" value="true"/>
+                 <label for="ff">
+                  Face-to-Face
+                 </label>
+                 <input name="_facetoface" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="bl" name="blended" type="checkbox" value="true"/>
+                 <label for="bl">
+                  Blended Learning
+                 </label>
+                 <input name="_blended" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="on" name="online" type="checkbox" value="true"/>
+                 <label for="on">
+                  Online
+                 </label>
+                 <input name="_online" type="hidden" value="on"/>
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+            <div class="row" id="second-advance-options-row">
+             <div class="eight columns" id="section-start-time-group">
+              <label for="start-time-input">
+               Start Time:
+              </label>
+              <!-- form:input path="classStartTime" size="5" id="start-time-input" / -->
+              <select aria-label="Start time filter" id="start-time-input" name="courseStartCompare">
+               <option selected="selected" value="">
+               </option>
+               <option value="after">
+                after
+               </option>
+               <option value="at">
+                at
+               </option>
+               <option value="before">
+                before
+               </option>
+               <option value="between">
+                between
+               </option>
+              </select>
+              <select aria-label="Hour" id="courseStartHour" name="courseStartHour">
+               <option selected="selected" value="">
+               </option>
+               <option value="01">
+                1
+               </option>
+               <option value="02">
+                2
+               </option>
+               <option value="03">
+                3
+               </option>
+               <option value="04">
+                4
+               </option>
+               <option value="05">
+                5
+               </option>
+               <option value="06">
+                6
+               </option>
+               <option value="07">
+                7
+               </option>
+               <option value="08">
+                8
+               </option>
+               <option value="09">
+                9
+               </option>
+               <option value="10">
+                10
+               </option>
+               <option value="11">
+                11
+               </option>
+               <option value="12">
+                12
+               </option>
+              </select>
+              <b>
+               :
+              </b>
+              <select aria-label="Minutes" id="courseStartMin" name="courseStartMin">
+               <option selected="selected" value="">
+               </option>
+               <option value="00">
+                00
+               </option>
+               <option value="15">
+                15
+               </option>
+               <option value="30">
+                30
+               </option>
+               <option value="45">
+                45
+               </option>
+              </select>
+              <select aria-label="AM or PM" id="courseStartAM" name="courseStartAM">
+               <option selected="selected" value="">
+               </option>
+               <option value="AM">
+                AM
+               </option>
+               <option lable="PM" value="PM">
+                PM
+               </option>
+              </select>
+             </div>
+             <div class="five columns" id="section-end-time-group">
+              <div id="end-time" style="display:none;">
+               <label for="end-time-input">
+                and
+               </label>
+               <select id="courseEndHour" name="courseEndHour">
+                <option selected="selected" value="">
+                </option>
+                <option value="01">
+                 1
+                </option>
+                <option value="02">
+                 2
+                </option>
+                <option value="03">
+                 3
+                </option>
+                <option value="04">
+                 4
+                </option>
+                <option value="05">
+                 5
+                </option>
+                <option value="06">
+                 6
+                </option>
+                <option value="07">
+                 7
+                </option>
+                <option value="08">
+                 8
+                </option>
+                <option value="09">
+                 9
+                </option>
+                <option value="10">
+                 10
+                </option>
+                <option value="11">
+                 11
+                </option>
+                <option value="12">
+                 12
+                </option>
+               </select>
+               <b>
+                :
+               </b>
+               <select id="courseEndMin" name="courseEndMin">
+                <option selected="selected" value="">
+                </option>
+                <option value="00">
+                 00
+                </option>
+                <option value="15">
+                 15
+                </option>
+                <option value="30">
+                 30
+                </option>
+                <option value="45">
+                 45
+                </option>
+               </select>
+               <select id="courseEndAM" name="courseEndAM">
+                <option selected="selected" value="">
+                </option>
+                <option value="AM">
+                 AM
+                </option>
+                <option lable="PM" value="PM">
+                 PM
+                </option>
+               </select>
+              </div>
+             </div>
+             <div class="eight columns" id="teaching-center-group">
+              <div>
+               <label for="teaching-center-input" id="teaching-center-label">
+                Location/Program:
+               </label>
+               <select aria-label="Location Program filter" id="teaching-center-input" name="teachingCenter">
+                <option value="ALL">
+                 Show All
+                </option>
+                <optgroup label="Location">
+                 <option value="*">
+                  College Park
+                 </option>
+                 <option value="DC">
+                  District of Columbia
+                 </option>
+                 <option value="FS">
+                  Frostburg State
+                 </option>
+                 <option value="HG">
+                  Hagerstown
+                 </option>
+                 <option value="HT">
+                  Heat Center, Hartford County
+                 </option>
+                 <option value="RB">
+                  Reagan Building
+                 </option>
+                 <option value="SG">
+                  Shady Grove
+                 </option>
+                 <option value="SM">
+                  Southern Maryland
+                 </option>
+                 <option value="BA">
+                  UMAB
+                 </option>
+                </optgroup>
+                <optgroup label="Program">
+                 <option value="FC">
+                  Freshmen Connection
+                 </option>
+                 <option value="PP">
+                  Professional Programs: Face-to-Face
+                 </option>
+                 <option value="OF">
+                  Professional Programs: Online
+                 </option>
+                 <option value="LS">
+                  Science in the Evening
+                 </option>
+                 <option value="SE">
+                  Universities at Shady Grove / EDUC
+                 </option>
+                </optgroup>
+               </select>
+              </div>
+             </div>
+            </div>
+            <div class="row" id="third-advance-options-row">
+             <div class="sixteen columns" id="course-days-group">
+              <div aria-labelledby="selected-days-checkboxes" class="control" role="group">
+               <label for="selected-days-checkboxes">
+                Course Days:
+               </label>
+               <span id="selected-days-checkboxes">
+                <span>
+                 <input id="classDays1" name="classDay1" type="checkbox" value="true"/>
+                 <label for="classDays1">
+                  Monday
+                 </label>
+                 <input name="_classDay1" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays2" name="classDay2" type="checkbox" value="true"/>
+                 <label for="classDays2">
+                  Tuesday
+                 </label>
+                 <input name="_classDay2" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays3" name="classDay3" type="checkbox" value="true"/>
+                 <label for="classDays3">
+                  Wednesday
+                 </label>
+                 <input name="_classDay3" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays4" name="classDay4" type="checkbox" value="true"/>
+                 <label for="classDays4">
+                  Thursday
+                 </label>
+                 <input name="_classDay4" type="hidden" value="on"/>
+                </span>
+                <span>
+                 <input id="classDays5" name="classDay5" type="checkbox" value="true"/>
+                 <label for="classDays5">
+                  Friday
+                 </label>
+                 <input name="_classDay5" type="hidden" value="on"/>
+                </span>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="row" id="advanced-options-toggle-container">
+           <div class="four columns centered">
+            <div class="button advanced-options-section-displayed" id="advanced-options-toggle">
+             <span id="advanced-options-toggle-left-arrows">
+             </span>
+             <span id="advanced-options-toggle-text">
+              <span id="advanced-options-toggle-state">
+               Hide
+               <!--
+								
+									
+									Hide
+								
+								-->
+              </span>
+              Advanced Options
+             </span>
+             <span id="advanced-options-toggle-right-arrows">
+             </span>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </form>
+       <script type="text/javascript">
+        $(document).ready(function() {
+		SocJs.initSearchBox('/soc', '/');
+	});
+       </script>
+       <div id="page-desc-wrapper">
+        <div id="page-desc-bar">
+         <div id="left-parallelogram">
+         </div>
+         <div id="page-desc">
+          Courses - Fall 2024
+         </div>
+         <div id="right-parallelogram">
+         </div>
+         <div id="site-menu-container">
+          <span id="site-menu-button">
+           <a class="site-menu-button-link" href="#">
+            <img src="/soc/resources/images/menu-button.png">
+            </img>
+           </a>
+          </span>
+         </div>
+        </div>
+       </div>
+       <div class="row" id="courses-page">
+        <!-- to be passed to sections.jsp, cannot work with lesser scopes -->
+        <input name="selectedTermId" type="hidden" value="202408"/>
+        <div class="course-prefix-container" id="AGST">
+         <input name="coursePrefix" type="hidden" value="AGST"/>
+         <div class="course-prefix-info">
+          <div class="row">
+           <div class="course-prefix-abbr-container one columns">
+            <span class="course-prefix-abbr">
+             AGST
+            </span>
+           </div>
+           <div class="nine columns">
+            <span class="course-prefix-name">
+             Agricultural Science and Technology
+            </span>
+            <span class="seats-update-time" id="seats-update-time" style="font-size: 12px;line-height: 12px;float: right;text-align: center;">
+             <div>
+              Open Seats as of
+             </div>
+             <div>
+              05/20/2024 at 01:30 PM
+             </div>
+            </span>
+           </div>
+           <div class="two columns">
+            <span id="print-link" style="padding-left:0;">
+             <a href="/soc/courses.pdf?termId=202408&amp;prefix=AGST&amp;genEdCode=&amp;coreCode=" target="_blank">
+              <img src="/soc/resources/images/print-icon.png" title="Print">
+              </img>
+             </a>
+            </span>
+            <span id="show-all-sections-button-wrapper">
+             <input id="show-all-sections-button" type="button" value="Hide All Sections"/>
+            </span>
+           </div>
+          </div>
+         </div>
+         <div class="courses-container">
+          <div class="course" id="AGST130">
+           <input name="courseId" type="hidden" value="AGST130"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              AGST130
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Did Yeast Create Civilization?
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="AGST130"/>
+                  </a>
+                 </legend>
+                 <div id="AGST130-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST130', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Pass-Fail, Audit">
+                   <span>
+                    Reg, P-F, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="General Education">
+                   <span>
+                    GenEd
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="course-subcategory">
+                  <a href="#" title="Distributive Studies - History and Social Sciences">
+                   DSHS
+                  </a>
+                 </span>
+                 ,
+                 <span class="course-subcategory">
+                  <a href="#" title="Signature Courses - Big Question">
+                   SCIS
+                  </a>
+                 </span>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Recommended:
+                    </strong>
+                    CHEM103, CHEM131, CHEM135, or CHEM146.
+                   </div>
+                   <div class="crosslisted-as">
+                    <strong>
+                     Cross-listed with:
+                    </strong>
+                    PLSC130.
+                   </div>
+                   <div>
+                    <strong>
+                     Credit only granted for:
+                    </strong>
+                    AGST130 or PLSC130.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Did yeast create civilization?  Fermented foods have played a major role in the transition from nomadic to settled agrarian societies, the establishment of social and religious customs, the expansion of empires, and modern economies. To what extent are our past and current attitudes towards fermented foods rooted in historical and cultural imprints? Explore the central role of fermentation in human history and culture, the basic microbiological processes underlying fermentation processes, and the processes used to produce and distribute fermented foods. Find out how the fruits, grains, and dairy products used to produce fermented foods are grown and selected. Students will learn about the development and modern use of fermented dairy products, pickles, bread, tea, chocolate, wine, beer, distilled liquors, and pharmaceutical/manufactured products.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="course-text">
+                 This course is not hands-on and does not teach how to ferment food.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/AGST/AGST130?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="0101"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        0101
+                       </span>
+                       <span class="footnote-marker">
+                        *
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/wendy-peer" target="_blank">
+                          Wendy Peer
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           12
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           0
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist has-waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                           <span class="seats-info-label">
+                            Holdfile:
+                           </span>
+                           <span class="waitlist-count">
+                            13
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST130', '0101', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="0102"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        0102
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/wendy-peer" target="_blank">
+                          Wendy Peer
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           5
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           4
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist has-waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                           <span class="seats-info-label">
+                            Holdfile:
+                           </span>
+                           <span class="waitlist-count">
+                            4
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST130', '0102', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                    <div class="section-texts-container">
+                     <div class="row">
+                      <div class="push_two thirteen columns">
+                       <div class="section-text">
+                        For Fermentation Science (01131) Majors only.
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="ESG1"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        ESG1
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/wendy-peer" target="_blank">
+                          Wendy Peer
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           6
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           6
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST130', 'ESG1', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                    <div class="section-texts-container">
+                     <div class="row">
+                      <div class="push_two thirteen columns">
+                       <div class="section-text">
+                        Restricted to students in the Fermentation Science major at Shady Grove
+                       </div>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                  <div class="footnote-container row">
+                   <div class="footnote twelve columns">
+                    <span class="footnote-marker">
+                     *
+                    </span>
+                    <span class="footnote-message">
+                     These sections are currently restricted to students with less than 60 credit hours completed. For further information, please click
+                     <a href="https://registrar.umd.edu/registration/register-classes/seat-management-plan" target="_blank">
+                      here
+                     </a>
+                     .
+                    </span>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="AGST333">
+           <input name="courseId" type="hidden" value="AGST333"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              AGST333
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Crafty Beverage Crops
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="AGST333"/>
+                  </a>
+                 </legend>
+                 <div id="AGST333-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST333', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Pass-Fail, Audit">
+                   <span>
+                    Reg, P-F, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Recommended:
+                    </strong>
+                    PLSC110 or PLSC112; or 1 course in BSCI, BCHM, BIOL.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 From soda to wine, a scientific introduction to "crafty beverage crops". Students will expand their horticulture knowledge and gain an appreciation for craft beverages and the plants that made them. Topics include history, biology, production and management techniques, harvest, storage and market potential for crafty beverage crops.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/AGST/AGST333?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="0101"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        0101
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/diana-renae-cochran" target="_blank">
+                          Diana Cochran
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           60
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           27
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST333', '0101', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="section-days">
+                        Tu
+                       </span>
+                       <span class="class-start-time">
+                        3:30pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        4:45pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="AGST426">
+           <input name="courseId" type="hidden" value="AGST426"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              AGST426
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Scientists Teaching and Translating Science
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="AGST426"/>
+                  </a>
+                 </legend>
+                 <div id="AGST426-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST426', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Pass-Fail, Audit">
+                   <span>
+                    Reg, P-F, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 <div>
+                  <div>
+                   <div>
+                    <strong>
+                     Credit only granted for:
+                    </strong>
+                    AGST426 or PLSC489L.
+                   </div>
+                   <div>
+                    <strong>
+                     Formerly:
+                    </strong>
+                    PLSC489L.
+                   </div>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Explore methods in pedagogy, andragogy, and heutagogy to facilitate science learning through the development of a teaching philosophy, outreach teaching skills, motivation in learning, assessment foundations, and review of current literature on instruction in science fields.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/AGST/AGST426?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-blended">
+                    <input name="sectionId" type="hidden" value="0101"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        0101
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/melissa-welsh" target="_blank">
+                          Melissa Welsh
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           24
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           23
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST426', '0101', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="section-days">
+                        W
+                       </span>
+                       <span class="class-start-time">
+                        1:00pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        2:50pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          PLS
+                         </span>
+                         <span class="class-room">
+                          2137
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="AGST440">
+           <input name="courseId" type="hidden" value="AGST440"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              AGST440
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Exploring Maryland Agriculture, Agricultural Industry, and Agricultural Literacy
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="AGST440"/>
+                  </a>
+                 </legend>
+                 <div id="AGST440-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST440', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png"/>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Pass-Fail, Audit">
+                   <span>
+                    Reg, P-F, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 Explore the mission and history of the Land Grant System as well as current work conducted through the University of Maryland to extend research to citizens. Often referred to as America in miniature, Maryland boasts diverse people, agricultural practices, cultures, and ecosystems which students will examine to perceive the decision making processes within and across ecological systems as well as the development of advisory boards.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/AGST/AGST440?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-f2f">
+                    <input name="sectionId" type="hidden" value="0101"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        0101
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/melissa-welsh" target="_blank">
+                          Melissa Welsh
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           24
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           23
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST440', '0101', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="section-day-time-group push_two five columns">
+                       <span class="section-days">
+                        MW
+                       </span>
+                       <span class="class-start-time">
+                        3:30pm
+                       </span>
+                       -
+                       <span class="class-end-time">
+                        5:00pm
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <a style="color:#A81919;" target="_blank">
+                         <span class="building-code">
+                          PLS
+                         </span>
+                         <span class="class-room">
+                          2137
+                         </span>
+                        </a>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="course" id="AGST640">
+           <input name="courseId" type="hidden" value="AGST640"/>
+           <div class="row">
+            <div class="course-id-container one columns">
+             <div class="course-id">
+              AGST640
+             </div>
+            </div>
+            <div class="course-info-container eleven columns">
+             <div class="course-basic-info-container sixteen colgrid">
+              <div class="row">
+               <div class="thirteen columns">
+                <span class="course-title">
+                 Analysis of Maryland Agriculture
+                </span>
+               </div>
+               <div class="two columns">
+                <fieldset class="syllabus-fieldset">
+                 <legend>
+                  <a class="toggle-syllabus-link" href="">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-e">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Syllabus Repository
+                   </span>
+                   <span>
+                    (0)
+                   </span>
+                   <input name="courseId" type="hidden" value="AGST640"/>
+                  </a>
+                 </legend>
+                 <div id="AGST640-syllabus-container">
+                 </div>
+                </fieldset>
+               </div>
+               <!-- @@@@@@@@@ -->
+               <div class="course-action-links-container one columns">
+                <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST640', '*', '/soc');" title="Add to My Saved List">
+                 <img src="/soc/resources/images/unsaved-star.png">
+                 </img>
+                </a>
+               </div>
+              </div>
+              <div class="course-stats-container row clearfix">
+               <div class="course-credits-group two columns">
+                <div>
+                 <span class="course-info-label">
+                  Credits:
+                 </span>
+                 <span class="course-min-credits">
+                  3
+                 </span>
+                </div>
+               </div>
+               <div class="grading-method-group five columns">
+                <div>
+                 <span class="course-info-label">
+                  <abbr title="Grading Method">
+                   <span>
+                    Grad Meth
+                   </span>
+                  </abbr>
+                 </span>
+                 :
+                 <span class="grading-method">
+                  <abbr title="Regular, Audit">
+                   <span>
+                    Reg, Aud
+                   </span>
+                  </abbr>
+                 </span>
+                </div>
+               </div>
+               <div class="gen-ed-codes-group six columns">
+                <div>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="approved-course-texts-container">
+              <div class="row">
+               <div class="twelve columns">
+                <div class="approved-course-text">
+                 An advanced research focused course on examining the mission and history of the Land Grant System as well as appraising the current work conducted through the University of Maryland Extension to extend research to citizens. Often referred to as America in miniature, Maryland boasts diverse people, agricultural practices, cultures, and ecosystems which students will examine to perceive the decision making processes within and across ecological systems. An enriching field practicum with an agricultural agency is required.
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="course-texts-container">
+             </div>
+             <div class="toggle-sections-link-container">
+              <div class="row">
+               <div class="sections-fieldset-container twelve columns">
+                <fieldset class="sections-fieldset sections-displayed">
+                 <legend>
+                  <a class="toggle-sections-link" href="/soc/202408/AGST/AGST640?teachingCenter=ALL">
+                   <span class="toggle-sections-arrow ui-icon ui-icon-triangle-1-s">
+                   </span>
+                   <span class="toggle-sections-link-text">
+                    Hide Sections
+                   </span>
+                  </a>
+                  <span class="hidden section-deliveryFilter">
+                   <a class="hidden delivery-all deliveryFilter deliveryFilter--selected" href="javascript:void(0)" onclick="SocJs.showAllSections(this);">
+                    All Sections
+                   </a>
+                   <a class="hidden delivery-f2f deliveryFilter" href="javascript:void(0)" onclick="SocJs.showF2FSections(this);">
+                    Face-to-Face
+                   </a>
+                   <a class="hidden delivery-blended deliveryFilter" href="javascript:void(0)" onclick="SocJs.showBlendedSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/blended_icon.png" width="20px"/>
+                    Blended Learning
+                   </a>
+                   <a class="hidden delivery-online deliveryFilter" href="javascript:void(0)" onclick="SocJs.showOnlineSections(this);">
+                    <img aria-hidden="true" class="deliveryIcon" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                    Online
+                   </a>
+                  </span>
+                 </legend>
+                 <div class="sections-container">
+                  <div class="sections sixteen colgrid">
+                   <div class="section delivery-online">
+                    <input name="sectionId" type="hidden" value="0101"/>
+                    <div class="section-info-container">
+                     <div class="row">
+                      <div class="section-id-container two columns">
+                       <span class="section-id">
+                        0101
+                       </span>
+                      </div>
+                      <div class="section-instructors-container five columns">
+                       <span class="section-instructors">
+                        <span class="section-instructor">
+                         <a href="https://agnr.umd.edu/about/directory/melissa-welsh" target="_blank">
+                          Melissa Welsh
+                         </a>
+                        </span>
+                       </span>
+                      </div>
+                      <div class="seats-info-group six columns">
+                       <div>
+                        <span class="section-info-label">
+                         Seats
+                        </span>
+                        <span class="seats-info">
+                         <span class="total-seats">
+                          (
+                          <span class="seats-info-label">
+                           Total:
+                          </span>
+                          <span class="total-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="open-seats has-open-seats">
+                          <span class="seats-info-label">
+                           Open:
+                          </span>
+                          <span class="open-seats-count">
+                           30
+                          </span>
+                          ,
+                         </span>
+                         <span class="waitlist">
+                          <a href="https://registrar.umd.edu/registration/register-classes/waitlist-hold-file">
+                           <span class="seats-info-label">
+                            Waitlist:
+                           </span>
+                           <span class="waitlist-count">
+                            0
+                           </span>
+                          </a>
+                          )
+                         </span>
+                        </span>
+                       </div>
+                      </div>
+                      <div class="two columns section-action-links-container2">
+                       <a class="saved-course-section-toggle-link" href="javascript:void(0)" onclick="SocJs.saveSection(this, 'AGST640', '0101', '/soc');" title="Add to My Saved List">
+                        <img src="/soc/resources/images/unsaved-star.png"/>
+                       </a>
+                       <a class="bookstore-link" href="#">
+                        <img alt="Bookstore" src="/soc/resources/images/bookstore.png" title="Bookstore"/>
+                       </a>
+                      </div>
+                     </div>
+                    </div>
+                    <!-- end section-info-container -->
+                    <div class="class-days-container">
+                     <div class="row">
+                      <div class="one columns">
+                       <img aria-hidden="true" height="16px" src="/soc/resources/images/online_icon.png" width="20px"/>
+                      </div>
+                      <div class="section-day-time-group push_one five columns">
+                       <span class="elms-class-message">
+                        Class time/details on ELMS
+                       </span>
+                      </div>
+                      <div class="section-class-building-group push_one three columns">
+                       <span class="class-building">
+                        <span class="class-room">
+                         ONLINE
+                        </span>
+                       </span>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                 </div>
+                </fieldset>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <script type="text/javascript">
+        $(document).ready(function() {
+		SocJs.initCoursesPage('/soc', '/', '202408', 'ALL', true);
+	});
+       </script>
+      </div>
+      <div id="page-overlay">
+      </div>
+      <div id="footer-push">
+      </div>
+     </div>
+     <div id="footer-wrapper">
+      <div class="container sixteen colgrid" id="footer">
+       <div class="row" id="footer-inner">
+        <div class="seven columns" id="umd-institution-info">
+         <div id="usm-info">
+          Flagship Institution of the
+          <a href="http://www.usmd.edu/">
+           University System of Maryland
+          </a>
+         </div>
+         <div id="umd-address-info">
+          <span id="umd-address">
+           University of Maryland, College Park, MD 20742, USA
+          </span>
+          <span id="umd-address-separator">
+           /
+          </span>
+          <span id="umd-phone-label">
+           Phone:
+          </span>
+          <span id="umd-phone">
+           301.405.1000
+          </span>
+         </div>
+        </div>
+        <div class="two columns" id="umd-terrapin-shell">
+         <a href="http://www.umd.edu" target="_blank">
+          <img src="/soc/resources/images/terrapin-shell.png"/>
+         </a>
+        </div>
+        <div class="seven columns" id="umd-other-info">
+         <span id="umd-copyright-label">
+          Copyright
+         </span>
+         <span id="umd-copyright">
+          © 2024 University of Maryland
+         </span>
+         <span id="umd-copyright-separator">
+          /
+         </span>
+         <span id="umd-privacy-link">
+          <a href="https://umd.service-now.com/itsc?id=kb_article&amp;article=KB0012192" target="_blank">
+           Privacy
+          </a>
+          /
+          <a href="https://umd.edu/web-accessibility" target="_blank">
+           Web Accessibility
+          </a>
+         </span>
+         <span id="umd-contact-info">
+          <a href="mailto:registrar-help@umd.edu">
+           Contact us
+          </a>
+          <span id="umd-contact-rest">
+           with comments, questions and feedback
+          </span>
+          <span id="umd-contact-separator">
+           /
+          </span>
+         </span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script src="https://ai.ocelotbot.com/embed/standard/83a41119-e8e0-4799-859e-396d1db19c21" type="text/javascript">
+  </script>
+ </body>
+</html>
